@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+}
+
+/* //NavBar--------------- */
+
+.nav-bar{
+  display: grid;
+  background-color: rgb(20,174,212);
+  grid-template-columns: auto auto auto;
+  height: 80px;
+  text-align: center;
+}
+
+#navbar1{
+  display: grid;
+  background-color: rgb(20,174,212);
+  padding-left: 56px;
+}
