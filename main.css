@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  
 }
 
 .night-time{
@@ -142,15 +143,19 @@ h4{
   font-size: 30px;
 }
 
+h5{
+  color:green;
+  font-size: 50px;
+}
  #biography{
    position: relative;
    bottom: 242px;
    left: 38px;
    text-align: left;
-   color: red;
-   background-image: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg");
-   background-repeat: no-repeat;
-   opacity: .7;
+   color: white   ;
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Libya_%281977%E2%80%932011%29.svg/300px-Flag_of_Libya_%281977%E2%80%932011%29.svg.png");
+   background-repeat: none;
+   opacity: 1;
    font-size: 20px;
    margin-right: 400px;
  }
