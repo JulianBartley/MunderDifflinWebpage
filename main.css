@@ -1,8 +1,11 @@
 html{
   scroll-behavior: smooth;
-  
 }
 
+footer{
+  padding: 35px;
+  text-align: center;
+}
 .night-time{
   background-image: url("https://i.redd.it/rbgnajmyts311.jpg");
   color: white;
@@ -16,6 +19,10 @@ html{
  text-decoration: none;
  display: inline-block;
  font-size: 16px;
+}
+
+p{
+  margin: 14px;
 }
 
 
@@ -146,6 +153,12 @@ h4{
 h5{
   color:green;
   font-size: 50px;
+  margin: 0;
+  padding: 20px;
+}
+h6{
+  color: blue;
+  font-size: 24px;
 }
  #biography{
    position: relative;
@@ -177,7 +190,7 @@ title{
   top: 0;
 }
 
-footer{
-  padding: 35px;
-  text-align: center;
+a{
+  text-decoration: none;
+  color: inherit;
 }
