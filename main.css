@@ -1,29 +1,176 @@
-/* h1{
+
+body{
+  margin: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+}
+
+#grid-container {
+  display: inline-grid;
+  grid-template-rows: auto;
+
+
+}
+
+.grid-item1 {
+  top: 0;
+  background-color: rgb(20,174,212);
+  font-size: 30px;
   text-align: center;
-  margin: 0;
-  background-color: rgb(61, 69, 129);
+  word-spacing: 5px;
+
+
+
+}
+.grid-item2{
+
+
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item3{
+
+  height: 100vh;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.grid-item4{
+
+
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+.grid-item6{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+.grid-item5{
+
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#navBar{
+
+    background: rgb(20,174,212);
+    position: fixed;
+    overflow: hidden;
+
+
+    /* box-shadow: 5px 10px #000; */
+    width: 100%;
+
+}
+
+#navbar1{
+  display: grid;
+  background-color: rgb(20,174,212);
+  padding-left: 56px;
+  width: 20%;
+  position: fixed;
+  overflow: hidden;
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+li {
+  float: left;
+  margin: 12.8px;
+  padding-right: 20px;
+
+}
+
+#navbar2{
+  padding-top: 20px;
+  background-color: rgb(20,174,212);
+
+  float: right;
+
+  width: 80%;
+}
+
+/* #navbar3{
+  padding-top: 20px;
 } */
 
-/* //NavBar--------------- */
-body{
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0;
-  background-color: #E0E0E0;
-}
+/* #icon{
+  padding-left: 900px;
+} */
 
-
-.firstScroll{
-  display: grid;
-  height: 100vh;
-  justify-content: center;
-  padding-top: 100px;
-}
 
 h1{
+  padding-top: 50px;
   text-align: center;
   font-size: 80px;
   font-weight: bold;
   color: rgb(65,103,177);
+
+
+}
+ h2{
+   text-align: center;
+   font-size: 20px;
+   padding-bottom: 90px;
+   color: rgb(24,119,242);
+   transform-origin: bottom center;
+ }
+
+ h3{
+   font-size: 10px;
+   padding-left: 150vh;
+   margin: 0;
+ }
+
+
+
+
+
+
+
+ #biography{
+   /* move over to the left */
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+   text-align: left;
+   color: white;
+   font-size: 20px;
+   padding-left: 250px;
+   padding-right: 350px;
+ }
+
+
+
+ #trees{
+     /* move over to the left */
+     position: absolute;
+     bottom: 10px;
+     left: 10px;
+     text-align: left;
+     color: white;
+     font-size: 20px;
+     padding-left: 250px;
+     padding-right: 350px;
+     height: 100vh;
+   }
+
+   img{
+     opacity: 0.89;
+   }
+
 
 
 }
@@ -105,6 +252,7 @@ h1{
 }
 .products{
   position: relative;
+
 }
 #trees{
     /* move over to the left */
@@ -116,6 +264,7 @@ h1{
     font-size: 20px;
     padding-left: 250px;
     padding-right: 350px;
+    height: 100vh;
   }
   /* padding-top: 30%;
   padding-right: 10%; */
